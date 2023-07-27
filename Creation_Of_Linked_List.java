@@ -23,14 +23,5 @@ public class Creation_Of_Linked_List{
         n5.next = null;
 
         Node tail = n5;
-
-        printLinkedListNodes(head);
-    }
-    public static void printLinkedListNodes(Node head){
-        Node i = head;
-        for(; i.next != null; i = i.next){
-            System.out.print(i.data + " ");
-        }
-        System.out.println(i.data);
     }
 }
