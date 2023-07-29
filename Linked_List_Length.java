@@ -21,7 +21,7 @@ public class Linked_List_Length{
         Node head = n1;
         Node tail = n4;
 
-        // create node
+        // create linked list
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
