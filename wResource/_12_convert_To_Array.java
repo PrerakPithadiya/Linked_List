@@ -31,7 +31,6 @@ public class _12_convert_To_Array{
         void insertNodes(int n){
             Random rd = new Random();
             for(int i = 1; i <= n; i++){
-//                Node x = new Node(rd.nextInt(1, 100));
                 add(rd.nextInt(1, 100));
             }
         }
