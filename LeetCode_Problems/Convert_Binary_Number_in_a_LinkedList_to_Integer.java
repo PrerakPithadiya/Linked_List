@@ -16,10 +16,10 @@ class Solution {
             sb.append(i.val);
         }
 
+        // this inbuilt function converts binary into decimal number 
+        // --> (Integer.parseInt("100100011", 2)) <--
         int ans = Integer.parseInt(sb.toString(), 2);
 
         return ans;
-
-
     }
 }
